@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tRecibido"
+            android:layout_width="match_parent"
+            android:layout_height="61dp" />
+
+        <Button
+            android:id="@+id/bAceptar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aceptar" />
+
+        <Button
+            android:id="@+id/bRechazar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rechazar" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.com.example.comunicacionactividades.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tnombre"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Nombre:" />
+
+        <EditText
+            android:id="@+id/eNombre"
+            style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/bVerificar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="verificar"
+            android:text="Verificar" />
+
+        <TextView
+            android:id="@+id/tResultado"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Resultado" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
